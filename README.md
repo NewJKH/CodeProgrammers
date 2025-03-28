@@ -1,2 +1,4 @@
 # CodeProgrammers
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+문제 풀기 입니다.
+
+반드시 효율적으로 작성하지 않고 다.양.한 방법으로 최적의 코드를 작성하는 걸 목표로 합니다.
