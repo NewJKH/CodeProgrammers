@@ -1,5 +1,3 @@
-import java.math.BigInteger;
-
 class Solution {
     // 재귀함수 ( 시간복잡도 엄청 크다. 통과가 안되네 )
     public int solution(int n) {
@@ -18,8 +16,8 @@ class Solution {
         int b = 1;
         
         for (int i = 2; i <= n; i++) {
-            int temp = (a% 1234567) +(b % 1234567);
-            temp = temp%1234567;
+            int temp = (a+b)%1234567;
+            temp = temp;
             a = b;
             b = temp;
         }
