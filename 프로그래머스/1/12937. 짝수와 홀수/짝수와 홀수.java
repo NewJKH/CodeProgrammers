@@ -1,5 +1,8 @@
 class Solution {
     public String solution(int num) {;
-        return num%2==0?"Even":"Odd";
+        return switch (num % 2) {
+            case 0 -> "Even";
+            default -> "Odd";
+        };
     }
 }
