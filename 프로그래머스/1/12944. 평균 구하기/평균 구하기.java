@@ -3,7 +3,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 
 public class Solution {
-    /*
+    
      class Wrapper {
         int value = 0;
     }
@@ -16,7 +16,7 @@ public class Solution {
 
         return (double) sum.value / arr.length;
     }
-    */
+    /*
     public double solution(int[] arr) {
         AtomicInteger sum = new AtomicInteger();
 
@@ -25,4 +25,5 @@ public class Solution {
 
         return (double) sum.get() / arr.length;
     }
+    */
 }
