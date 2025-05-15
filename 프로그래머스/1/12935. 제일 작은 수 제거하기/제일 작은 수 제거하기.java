@@ -19,7 +19,6 @@ class Solution {
             as[index] = t[i];
             index++;
         }
-
         return as;
     }
 }
