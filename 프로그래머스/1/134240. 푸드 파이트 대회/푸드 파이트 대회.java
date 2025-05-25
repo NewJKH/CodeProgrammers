@@ -10,8 +10,6 @@ class Solution {
             }
         }
         String sort = new StringBuilder(stringBuilder).reverse().toString();
-        stringBuilder.append(0);
-        stringBuilder.append(sort);
-        return stringBuilder.toString();
+        return stringBuilder.append(0).append(sort).toString();
     }
 }
