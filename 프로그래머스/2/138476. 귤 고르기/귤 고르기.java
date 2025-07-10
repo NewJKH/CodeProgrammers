@@ -5,7 +5,7 @@ class Solution {
         return minTypesToBuy(k,groupBySize(v));
     }
     
-    private static int minTypesToBuy(int k, Map<Integer, Integer> box) {
+    private int minTypesToBuy(int k, Map<Integer, Integer> box) {
         List<Map.Entry<Integer, Integer>> list = new ArrayList<>(box.entrySet());
         list.sort((a, b) -> b.getValue() - a.getValue());
 
@@ -22,7 +22,7 @@ class Solution {
         return min;
     }
 
-    private static Map<Integer, Integer> groupBySize(int[] v) {
+    private Map<Integer, Integer> groupBySize(int[] v) {
         Map<Integer, Integer> box = new HashMap<>();
 
         for (int i : v) {
@@ -32,6 +32,3 @@ class Solution {
         return box;
     }
 }
-/*
-    그리디 알고리즘을 사용해서 풀이
-*/
